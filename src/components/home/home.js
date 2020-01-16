@@ -8,7 +8,7 @@ import UserProfile from '../user_profile/user_profile'
 import Experience from '../experience/experience'
 // Importando o avatar da empresa 
 import outsmart_logo from '../../images/outsmartlogo.png'
-import { infosPessoais } from '../../constants/constants'
+import { InfosPessoais } from '../../constants/constants'
 
 const Home = () => (
   <Row>
@@ -19,17 +19,17 @@ const Home = () => (
         <h5 className="subtitle">About Me</h5>
         <Card>
           <div>
-            <p><b>{infosPessoais.aboutMeTitle1}</b></p>
-            <p>{infosPessoais.aboutMeText1}</p>
+            <p><b>{InfosPessoais.aboutMeTitle1}</b></p>
+            <p>{InfosPessoais.aboutMeText1}</p>
             <br/>
-            <p><b>{infosPessoais.aboutMeTitle2}</b></p>
-            <p>{infosPessoais.aboutMeText2}</p>
+            <p><b>{InfosPessoais.aboutMeTitle2}</b></p>
+            <p>{InfosPessoais.aboutMeText2}</p>
           </div>
         </Card>
         <h5 className="subtitle">Experiences</h5>
         <Experience title = "Front-End developer"
                     company = "OutSmart"
-                    description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laborevoluptate velit esse cillum dolore eu fugiat id est laborum."
+                    description = "Current job, joined the company in January 2020 as an intern."
                     avatar = {outsmart_logo}
         />
     </Col>

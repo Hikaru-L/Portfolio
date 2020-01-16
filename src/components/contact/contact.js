@@ -4,17 +4,9 @@ import React, { useState } from "react";
 import { Row, Col, Card, Input, Button } from 'react-materialize';
 // Importando o component UserProfile
 import UserProfile from '../user_profile/user_profile'
+import { InfosPessoais, Colors } from '../../constants/constants'
 
 const Contact = () => {
-  const [test, setTest] = useState('YES');
-
-  const returnHome = () => {
-    if (test === 'YES')
-      setTest('NO')
-    else
-      setTest('YES')
-  
-  }
   return (
     <Row>
       <Col m={3} s={12}>
@@ -24,14 +16,23 @@ const Contact = () => {
           <h5>Contact</h5>
           <Card>
             <Row>
-                <Input type="email" label="Email" s={12} />
-                <Input label="LinkedIn" s={12} />
+                <p><b> E-mail </b></p>
+                <Card>
+                <p> { InfosPessoais.email1 } </p>
+                <p> { InfosPessoais.email2 } </p>
+                </Card>
+                <p><b> LinkedIn </b></p>
+                <Card>
+                <p>lembrete pra fazer o linkedin</p>
+                </Card>
+                
               <Col s={12} m={12}>
                 <Button waves='light' 
-                className="right grey darken-2" 
-                onClick={returnHome}
+                className={ Colors.indigoBGWhiteText } 
+                href={ InfosPessoais.github }
+                node="a"
                 >  
-                {test}</Button>
+                Link to my GitHub</Button>
               </Col>
             </Row>
           </Card>

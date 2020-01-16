@@ -7,12 +7,15 @@ import { Container } from 'react-materialize';
 
 import Contact from './components/contact/contact'
 
+import Projects from './components/projects/projects'
+
 import { Switch, Route } from 'react-router-dom'
 const Main = () => (
   <main>
     <Container>
         <Switch>
             <Route exact path='/' component = {Home}/>
+            <Route path='/projects' component = {Projects}/>
             <Route path='/contact' component = {Contact}/>
 
         </Switch>

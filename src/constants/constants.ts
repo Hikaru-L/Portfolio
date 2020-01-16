@@ -1,14 +1,17 @@
-export const infosPessoais = {
+export const InfosPessoais = {
     devName: 'Luis Hikaru',
     companyName: 'OutSmart',
-    aboutMeTitle1: 'Lorem',
-    aboutMeTitle2: 'Ipsum',
-    aboutMeText1: 'sample text',
-    aboutMeText2: 'sample text',
+    aboutMeTitle1: 'Education',
+    aboutMeTitle2: 'Hobbies',
+    aboutMeText1: 'I am currently pursuing a bachelor\'s degree in Computer Science at the Instituto de Matemática e Estatística from Universidade de São Paulo.',
+    aboutMeText2: 'Most of my leisure time is spent playing basketball, I otherwise enjoy reading and experimenting with personal programming projects. I also consider myself a Tabletop RPG enthusiast.',
+    email1: 'hikaru.outsmart@gmail.com',
+    email2: 'luis_hikaru@usp.br',
+    github: 'https://github.com/Hikaru-L'
 }
 
-export const colors = {
+export const Colors = {
     lightGreyBG: 'grey lighten-2',
     greyBGWhiteText: 'grey darken-2 white-text',
-    indigoBG: 'indigo',
+    indigoBGWhiteText: 'indigo white-text',
 }
