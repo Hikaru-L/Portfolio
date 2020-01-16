@@ -16,7 +16,9 @@ export const Colors = {
 }
 
 export const Sizes = {
+    verySmall : 2,
     small : 3,
     medium : 8,
+    mediumLarge : 10,
     large : 12,
 }

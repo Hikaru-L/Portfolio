@@ -4,12 +4,12 @@ import React from "react";
 import { Row, Col, Card } from 'react-materialize';
 // importando a foto do usuário (note que depois podemos usa-la facilmente chamando apenas avatar ao invés do caminho completo)
 import avatar from '../../images/testprofilepic.jpg';
-import { Colors, InfosPessoais } from "../../constants/constants";
+import { Colors, InfosPessoais, Sizes } from "../../constants/constants";
 
 const UserProfile = () => (
   <Card>
       <Row>
-        <Col s={8} m={8} offset="s2 m2">
+        <Col s={Sizes.medium} m={Sizes.medium} offset="s2 m2">
           <img src={avatar} className="circle responsive-img" />
         </Col>
       </Row>

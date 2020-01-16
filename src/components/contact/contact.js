@@ -4,15 +4,15 @@ import React, { useState } from "react";
 import { Row, Col, Card, Input, Button } from 'react-materialize';
 // Importando o component UserProfile
 import UserProfile from '../user_profile/user_profile'
-import { InfosPessoais, Colors } from '../../constants/constants'
+import { InfosPessoais, Colors, Sizes } from '../../constants/constants'
 
 const Contact = () => {
   return (
     <Row>
-      <Col m={3} s={12}>
+      <Col m={Sizes.small} s={Sizes.large}>
         <UserProfile />
       </Col>
-      <Col m={8} s={12}>
+      <Col m={Sizes.medium} s={Sizes.large}>
           <h5>Contact</h5>
           <Card>
             <Row>
