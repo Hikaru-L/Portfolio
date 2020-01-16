@@ -1,12 +1,18 @@
+// Importando o React
 import React from 'react';
+// Importando o React Dom para injetar o <APP /> na tag <div id="root"></div> do index.html
 import ReactDOM from 'react-dom';
-import './index.css';
+// Importando o componenet APP
 import App from './App';
-import * as serviceWorker from './serviceWorker';
+// Importando o css
+import './index.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import { BrowserRouter } from 'react-router-dom'
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+// Renderizando o component APP (com seus sub componenets e etc) em <div id="root"></div> do index.html
+ReactDOM.render((
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>
+),
+    document.getElementById('root'));
