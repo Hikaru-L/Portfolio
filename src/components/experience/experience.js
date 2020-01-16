@@ -4,12 +4,14 @@ import React from "react";
 import { Row, Col, Card } from 'react-materialize';
 import { Colors, Sizes } from "../../constants/constants";
 
+const avatarProps = "square responsive-img"
+
 // Recebe os parâmetros passadados para o Component na variável props
 const Experience = (props) => (
   <Card>
       <Row>
         <Col s={Sizes.verySmall} m={Sizes.verySmall}>
-          <img src={props.avatar} className="square responsive-img" />
+          <img src={props.avatar} className={avatarProps} />
           { props.name }
         </Col>
 

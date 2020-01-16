@@ -11,13 +11,25 @@ import outsmart_logo from '../../images/outsmartlogo.png'
 import aaamat_logo from '../../images/aaamatlogo.png'
 import { InfosPessoais, Sizes } from '../../constants/constants'
 
+const HomeText = {
+  descriptionProps: 'subtitle',
+  descriptionText: 'About Me',
+  descriptionTextExperience: 'Experience',
+  expTitle1: "Front-End developer intern",
+  expCompany1: "OutSmart",
+  expDescription1: "Current job, joined the company in January 2020 as an intern.",
+  expTitle2: "Sports General Manager",
+  expCompany2: "AAAMAT - IME USP",
+  expDescription2: "Voluntary role at college that gave me a lot of knowledge on dealing with people and organizing events.",
+}
+
 const Home = () => (
   <Row>
     <Col m={ Sizes.small } s={ Sizes.large }>
       <UserProfile /> 
     </Col>
     <Col m={ Sizes.medium } s={ Sizes.large }>
-        <h5 className="subtitle">About Me</h5>
+        <h5 className={HomeText.descriptionProps}>{HomeText.descriptionText}</h5>
         <Card>
           <div>
             <p><b>{InfosPessoais.aboutMeTitle1}</b></p>
@@ -27,15 +39,15 @@ const Home = () => (
             <p>{InfosPessoais.aboutMeText2}</p>
           </div>
         </Card>
-        <h5 className="subtitle">Experiences</h5>
-        <Experience title = "Front-End developer intern"
-                    company = "OutSmart"
-                    description = "Current job, joined the company in January 2020 as an intern."
+        <h5 className={HomeText.descriptionProps}>{HomeText.descriptionTextExperience}</h5>
+        <Experience title = {HomeText.expTitle1}
+                    company = {HomeText.expCompany1}
+                    description = {HomeText.expDescription1}
                     avatar = {outsmart_logo}
         />
-        <Experience title = "Sports General Manager"
-                    company = "AAAMAT - IME USP"
-                    description = "Voluntary role at college that gave me a lot of knowledge on dealing with people and organizing events."
+        <Experience title = {HomeText.expTitle2}
+                    company = {HomeText.expCompany2}
+                    description = {HomeText.expDescription2}
                     avatar = {aaamat_logo}
         />
     </Col>

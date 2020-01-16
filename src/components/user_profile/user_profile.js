@@ -6,16 +6,22 @@ import { Row, Col, Card } from 'react-materialize';
 import avatar from '../../images/testprofilepic.jpg';
 import { Colors, InfosPessoais, Sizes } from "../../constants/constants";
 
+const UserProfileProps = {
+  avatarProps:  "circle responsive-img",
+  colOffset: 's2 m2',
+  rowAlignment: 'center-align',
+}
+
 const UserProfile = () => (
   <Card>
       <Row>
-        <Col s={Sizes.medium} m={Sizes.medium} offset="s2 m2">
-          <img src={avatar} className="circle responsive-img" />
+        <Col s={Sizes.medium} m={Sizes.medium} offset= {UserProfileProps.colOffset} >
+          <img src={avatar} className={UserProfileProps.avatarProps} />
         </Col>
       </Row>
-      <Row className="center-align">
+      <Row className= {UserProfileProps.rowAlignment} >
         <h5 >{ InfosPessoais.devName }</h5>
-        <p className={Colors.indigoBGWhiteText}>Front-End Developer in training</p>
+        <p className={Colors.indigoBGWhiteText}> {InfosPessoais.jobTitle} </p>
       </Row>
   </Card>
 );

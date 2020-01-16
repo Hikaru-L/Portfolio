@@ -4,7 +4,7 @@ import Main from './main'
 
 class App extends Component {
   render() {
-    return ( //aha
+    return (
       <div>
         <Header />
         <Main />

@@ -4,31 +4,39 @@ import React, { useState } from "react";
 import { Row, Col, Card, Input, Button } from 'react-materialize';
 // Importando o component UserProfile
 import UserProfile from '../user_profile/user_profile'
-import { InfosPessoais, Colors } from '../../constants/constants'
+import { InfosPessoais, Colors , Modifiers } from '../../constants/constants'
+
+const ProjectsProps = {
+    title: 'Projects',
+    description: 'Here are some personal projects, all available in my GitHub.',
+    projectName1: 'Tabletop RPG Combat Tracker',
+    projectName2: 'College Assignments',
+    //projectName3: '',
+}
 
 const Projects = () => {
     return (
         <Col>
             <Row>
-                <h5>Projects</h5>
-                <p>Here are some personal projects, all available in my GitHub.</p>
+                <h5>{ProjectsProps.title}</h5>
+                <p>{ProjectsProps.description}</p>
                 <Card>
                     <Button
-                    waves = "light"
+                    waves = {Modifiers.waveTypeLight}
                     className={ Colors.indigoBGWhiteText } 
                     href={ InfosPessoais.github }
-                    node="a"
+                    node={Modifiers.nodeTypeA}
                     >
-                    Tabletop RPG Combat Tracker</Button>
+                    {ProjectsProps.projectName1}</Button>
                     <br/>
                     <br/>
                     <Button
-                    waves = "light"
+                    waves = {Modifiers.waveTypeLight}
                     className={ Colors.greyBGWhiteText } 
                     href={ InfosPessoais.github }
-                    node="a"
+                    node={Modifiers.nodeTypeA}
                     >
-                    College Assignments</Button>
+                    {ProjectsProps.projectName2} </Button>
                 </Card>
             </Row>
         </Col>

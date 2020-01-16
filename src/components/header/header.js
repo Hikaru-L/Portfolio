@@ -6,6 +6,7 @@ import { Navbar, NavItem, Row} from 'react-materialize';
 import { NavLink } from 'react-router-dom'
 import { Colors } from "../../constants/constants";
 
+
 const Header = () => (
   <Row>  
     <Navbar className={Colors.indigoBGWhiteText}>
