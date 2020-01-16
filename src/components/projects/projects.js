@@ -24,7 +24,7 @@ const Projects = () => {
                     <br/>
                     <Button
                     waves = "light"
-                    className={ Colors.indigoBGWhiteText } 
+                    className={ Colors.greyBGWhiteText } 
                     href={ InfosPessoais.github }
                     node="a"
                     >

@@ -4,7 +4,7 @@ import React from "react";
 import { Row, Col, Card } from 'react-materialize';
 // importando a foto do usuário (note que depois podemos usa-la facilmente chamando apenas avatar ao invés do caminho completo)
 import avatar from '../../images/testprofilepic.jpg';
-import { Colors } from "../../constants/constants";
+import { Colors, InfosPessoais } from "../../constants/constants";
 
 const UserProfile = () => (
   <Card>
@@ -14,7 +14,7 @@ const UserProfile = () => (
         </Col>
       </Row>
       <Row className="center-align">
-        <h5 >Luis Hikaru</h5>
+        <h5 >{ InfosPessoais.devName }</h5>
         <p className={Colors.indigoBGWhiteText}>Front-End Developer in training</p>
       </Row>
   </Card>

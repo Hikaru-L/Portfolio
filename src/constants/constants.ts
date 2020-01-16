@@ -1,6 +1,5 @@
 export const InfosPessoais = {
     devName: 'Luis Hikaru',
-    companyName: 'OutSmart',
     aboutMeTitle1: 'Education',
     aboutMeTitle2: 'Hobbies',
     aboutMeText1: 'I am currently pursuing a bachelor\'s degree in Computer Science at the Instituto de Matemática e Estatística from Universidade de São Paulo.',
@@ -14,4 +13,10 @@ export const Colors = {
     lightGreyBG: 'grey lighten-2',
     greyBGWhiteText: 'grey darken-2 white-text',
     indigoBGWhiteText: 'indigo white-text',
+}
+
+export const Sizes = {
+    small : 3,
+    medium : 8,
+    large : 12,
 }
