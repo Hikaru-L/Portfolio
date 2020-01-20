@@ -11,8 +11,8 @@ const Header = () => (
   <Row>  
     <Navbar className={Colors.indigoBGWhiteText}>
       <li><NavLink to="Portifolio">Home</NavLink></li>
-      <li><NavLink to="Portifolio/projects">Projects</NavLink></li>
-      <li><NavLink to="Portifolio/contact">Contact</NavLink></li>
+      <li><NavLink to="projects">Projects</NavLink></li>
+      <li><NavLink to="contact">Contact</NavLink></li>
       
     </Navbar>
   </Row>

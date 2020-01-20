@@ -14,7 +14,6 @@ const Main = () => (
   <main>
     <Container>
         <Switch>
-          <Route exact path='/' component = {Home}/>
             <Route exact path='/Portifolio' component = {Home}/>
             <Route path='/Portifolio/projects' component = {Projects}/>
             <Route path='/Portifolio/contact' component = {Contact}/>
