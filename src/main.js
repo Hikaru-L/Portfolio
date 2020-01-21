@@ -14,9 +14,9 @@ const Main = () => (
   <main>
     <Container>
         <Switch>
-            <Route exact path='/Portifolio' component = {Home}/>
-            <Route path='/Portifolio/projects' component = {Projects}/>
-            <Route path='/Portifolio/contact' component = {Contact}/>
+            <Route exact path='/Portfolio' component = {Home}/>
+            <Route path='/Portfolio/projects' component = {Projects}/>
+            <Route path='/Portfolio/contact' component = {Contact}/>
 
         </Switch>
     </Container>

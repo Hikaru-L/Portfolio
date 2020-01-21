@@ -10,9 +10,9 @@ import { Colors } from "../../constants/constants";
 const Header = () => (
   <Row>  
     <Navbar className={Colors.indigoBGWhiteText}>
-      <li><NavLink to="/Portifolio">Home</NavLink></li>
-      <li><NavLink to="/Portifolio/projects">Projects</NavLink></li>
-      <li><NavLink to="/Portifolio/contact">Contact</NavLink></li>
+      <li><NavLink to="/Portfolio">Home</NavLink></li>
+      <li><NavLink to="/Portfolio/projects">Projects</NavLink></li>
+      <li><NavLink to="/Portfolio/contact">Contact</NavLink></li>
       
     </Navbar>
   </Row>
