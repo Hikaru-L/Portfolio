@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Portifolio/static/css/main.6b5c7cee.chunk.css",
-    "main.js": "/Portifolio/static/js/main.1c6a3073.chunk.js",
-    "main.js.map": "/Portifolio/static/js/main.1c6a3073.chunk.js.map",
-    "runtime-main.js": "/Portifolio/static/js/runtime-main.ab8852f5.js",
-    "runtime-main.js.map": "/Portifolio/static/js/runtime-main.ab8852f5.js.map",
-    "static/js/2.523a4654.chunk.js": "/Portifolio/static/js/2.523a4654.chunk.js",
-    "static/js/2.523a4654.chunk.js.map": "/Portifolio/static/js/2.523a4654.chunk.js.map",
-    "index.html": "/Portifolio/index.html",
-    "precache-manifest.72e12ad6430db59b942d02527da1eccd.js": "/Portifolio/precache-manifest.72e12ad6430db59b942d02527da1eccd.js",
-    "service-worker.js": "/Portifolio/service-worker.js",
-    "static/css/main.6b5c7cee.chunk.css.map": "/Portifolio/static/css/main.6b5c7cee.chunk.css.map",
-    "static/js/2.523a4654.chunk.js.LICENSE": "/Portifolio/static/js/2.523a4654.chunk.js.LICENSE",
-    "static/media/aaamatlogo.png": "/Portifolio/static/media/aaamatlogo.47986a85.png",
-    "static/media/outsmartlogo.png": "/Portifolio/static/media/outsmartlogo.1cc1dde9.png",
-    "static/media/testprofilepic.jpg": "/Portifolio/static/media/testprofilepic.b225f49a.jpg"
+    "main.css": "/Portfolio/static/css/main.6b5c7cee.chunk.css",
+    "main.js": "/Portfolio/static/js/main.0bb01d94.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.0bb01d94.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.12d5fa59.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.12d5fa59.js.map",
+    "static/js/2.523a4654.chunk.js": "/Portfolio/static/js/2.523a4654.chunk.js",
+    "static/js/2.523a4654.chunk.js.map": "/Portfolio/static/js/2.523a4654.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.70313117a5569392f55d966de31c46b1.js": "/Portfolio/precache-manifest.70313117a5569392f55d966de31c46b1.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.6b5c7cee.chunk.css.map": "/Portfolio/static/css/main.6b5c7cee.chunk.css.map",
+    "static/js/2.523a4654.chunk.js.LICENSE": "/Portfolio/static/js/2.523a4654.chunk.js.LICENSE",
+    "static/media/aaamatlogo.png": "/Portfolio/static/media/aaamatlogo.47986a85.png",
+    "static/media/outsmartlogo.png": "/Portfolio/static/media/outsmartlogo.1cc1dde9.png",
+    "static/media/testprofilepic.jpg": "/Portfolio/static/media/testprofilepic.b225f49a.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ab8852f5.js",
+    "static/js/runtime-main.12d5fa59.js",
     "static/js/2.523a4654.chunk.js",
     "static/css/main.6b5c7cee.chunk.css",
-    "static/js/main.1c6a3073.chunk.js"
+    "static/js/main.0bb01d94.chunk.js"
   ]
 }
